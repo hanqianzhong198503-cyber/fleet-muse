@@ -1,0 +1,9 @@
+# Fleet Muse — secrets and runtime state stay out of git.
+.secrets/
+registry/
+output/
+*.key
+*.pem
+__pycache__/
+*.pyc
+.pytest_cache/
